@@ -1,0 +1,334 @@
+* {padding: 0;
+    margin: 0;
+    }
+    body{
+        background-image: url(fundo.png);
+    }
+    header{
+        height: 90px;
+        width: 100%;
+        background-color: #C0784F;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo>img{
+        margin-left: 15px;
+    }
+    .logo a{
+        color: #4D4D4D;
+        font-family: "Inria Sans", sans-serif;
+        display: flex;
+        text-decoration: none;
+    }
+    .logo{
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        font-family: "Inria Sans", sans-serif;
+        color: #4D4D4D;
+    }
+    button{
+        cursor: pointer;
+    }
+    .btn{
+        margin-right: 50px;
+        height: 50px;
+        width: 150px;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        border: none;
+        border-radius: 12px;
+        color: #4D4D4D;
+        background-color: #D9D9D9;
+    }
+    .main{
+        width: 100%;
+    }
+    #busca{
+        width: 570px;
+        height: 40px;
+        background-color: #C0784F;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 35%;
+    }
+    #txt{
+        width: 500px;
+        height: 40px;
+        border: none;
+        border-top: none;
+        background-color: #C0784F;
+        margin-left: 25px;
+        margin-right: 10px;
+        font-size: 25px;
+        font-family: "Inria Sans", sans-serif;
+        color: #4D4D4D;
+    }
+    #gif{
+        border-radius: 56px;
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+    #texto_bem_vindo{
+        color: #6C2727;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 210px;
+        margin-top: 90px;
+    }
+    #mais_pedido{
+        font-size: 128px;
+        font-family: "Inria Sans", sans-serif;
+        width: 1217px;
+        height: 142px;
+        background-color: #C0784F;
+        border-radius: 71px;
+        margin-left: 18%;
+        margin-top: 60px;
+        text-align: center;
+    }
+    #cardapio_mais_pedidos{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 0.5fr  1fr 1fr 1fr 0.5fr;
+        grid-template-rows: 360px 360px;
+    }
+    #a{
+        grid-column: 2;
+    }
+    .a{
+        border-radius: 20px;
+        background-color: #A45A43;
+        height: 300px;
+        width: 300px;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 80px;
+    }
+    #b{
+        grid-column: 3;
+    }
+    #c{
+        grid-column: 4;
+    }
+    #d{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #e{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    #f{
+        grid-column: 4;
+        grid-row: 2;
+    }
+    #footer{
+        height: 200px;
+        background-color: #C0784F;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 50px;
+    }
+    #footer a{
+        color: #FFFFFF;
+        font-family: "Inria Sans", sans-serif;
+    }
+    #logar{
+        width: 470px;
+        height: 425px;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin-left: 670px;
+        margin-top: 200px;
+    }
+    #user{
+        width: 100%;
+        height: 25%;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #user input{
+        height: 35px;
+        width: 290px;
+        border: none;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 5px;
+    }
+    #senha{
+        width: 100%;
+        height: 25%;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #senha input{
+        height: 35px;
+        width: 290px;
+        border: none;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 5px;
+    }
+    .comf{
+        font-family: "Inria Sans", sans-serif;
+        height: 35px;
+        width: 290px;
+        margin-left: 90px;
+        margin-top: 50px;
+        border: #C0784F;
+        border-radius: 20px;
+        background-color: #C0784F;
+        font-size: 30px;
+    }
+    #cardapio{
+        display: grid;
+        grid-template-columns: 0.5fr  1fr 1fr 1fr 0.5fr;
+        grid-template-rows: 400px 400px 400px 400px;
+        margin-top: 60px;
+    }
+    .a{
+        border-radius: 20px;
+        background-color: #A45A43;
+        height: 300px;
+        width: 300px;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 60px;
+    }
+    #g{
+        grid-column: 2;
+    }
+    #h{
+        grid-column: 3;
+    }
+    #i{
+        grid-column: 4;
+    }
+    #j{
+        grid-column: 2;
+    }
+    #k{
+        grid-column: 3;
+    }
+    #l{
+        grid-column: 4;
+    }
+    #m{
+        grid-column: 2;
+    }
+    #n{
+        grid-column: 3;
+    }
+    #o{
+        grid-column: 4;
+    }
+    #p{
+        grid-column: 2;
+    }
+    #q{
+        grid-column: 3;
+    }
+    #r{
+        grid-column: 4;
+    }
+    .c{
+        background-color: #A45A43;
+        border-radius: 20px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    .d{
+        background-color: #A45A43;
+        border-radius: 20px;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    #sobrenos{
+        width: 1000px;
+        height: 830px;
+        background-color: #D9D9D9;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    #suporte{
+        width: 470px;
+        height: 425px;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin-left: 670px;
+        margin-top: 200px;
+    }
+    #nome{
+        width: 100%;
+        height: 25%;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #nome input{
+        height: 35px;
+        width: 290px;
+        border: none;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 5px;
+    }
+    #mensagem{
+        width: 100%;
+        height: 25%;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #mensagem input{
+        height: 35px;
+        width: 290px;
+        border: none;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 5px;
+
+    }
+    #pagped{
+        width: 470px;
+        height: 425px;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin-left: 670px;
+        margin-top: 200px;
+        font-family: "Inria Sans", sans-serif;
+        font-size: 40px;
+    }
+    #valor{
+        margin-top: 10px;
+        margin-left: 180px;
+    }
+    #endereco input{
+        height: 35px;
+        width: 260px;
+        border: none;
+        font-size: 35px;
+        font-family: "Inria Sans", sans-serif;
+        margin-left: 5px;
+    }
